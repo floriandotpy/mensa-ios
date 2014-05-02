@@ -3,6 +3,14 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>ID</key>
+		<integer>430</integer>
+		<key>shouldDisplay</key>
+		<true/>
+		<key>name</key>
+		<string>HCU</string>
+	</dict>
+	<dict>
 		<key>name</key>
 		<string>Campus</string>
 		<key>ID</key>

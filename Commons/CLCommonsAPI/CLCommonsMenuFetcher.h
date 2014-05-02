@@ -28,7 +28,8 @@ typedef NS_ENUM(NSInteger, CLCommons) {
     CLCommonsHarburg = 570,
     CLCommonsPhilosophenturm = 350,
     CLCommonsStellingen = 580,
-    CLCommonsStudierendenhaus = 310
+    CLCommonsStudierendenhaus = 310,
+    CLCommonsHCU = 430
 };
 
 typedef NS_ENUM(NSInteger, CLCommonsMenuDay) {

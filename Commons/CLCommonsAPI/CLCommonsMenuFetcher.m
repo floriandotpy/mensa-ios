@@ -176,6 +176,9 @@
         case CLCommonsStudierendenhaus:
             commonsName = @"Studierendenhaus";
             break;
+        case CLCommonsHCU:
+            commonsName = @"Mensa HCU";
+            break;
         default:
             commonsName = @"Error occurred";
             break;

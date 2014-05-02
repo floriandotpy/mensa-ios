@@ -181,28 +181,7 @@
     // Configure the cell...
     CLCommonsMenu *tempMenu = self.activeMenus[indexPath.section];
     CLCommonsMeal *tempMeal = tempMenu.meals[indexPath.row];
-    
-//    
-//    CGSize textSize = {
-//        10.0,   // limit width
-//        20000.0  // and height of text area
-//    };
-//    
-//    
-//    
-//    boundingRectWithSize:options:attributes:context:
-//    CGRect rect = [tempMeal.description boundingRectWithSize:textSize
-//                                                     options: NSStringDrawingUsesLineFragmentOrigin
-//                                                  attributes:nil
-//                                                     context:nil];
-//    CGSize size = rect.size;
-//    CGSize size = [tempMeal.description sizeWithFont:[UIFont systemFontOfSize:17.0] constrainedToSize:textSize lineBreakMode:NSLineBreakByWordWrapping];
-//    CGFloat height = size.height < 36? 36: size.height; // lower bound for height
-//    
-//    CGRect labelFrame = [cell.textLabel frame];
-//    labelFrame.size.height = height;
-//
-//    [cell.textLabel setFrame:labelFrame];
+
     cell.descriptionLabel.text = tempMeal.description;
     cell.priceLabel.text = tempMeal.prices.firstObject;
     
@@ -211,25 +190,8 @@
 
 
 
-/*
- // Override to support conditional editing of the table view.
- - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
- {
- // Return NO if you do not want the specified item to be editable.
- return YES;
- }
- */
-
-
-/*
- // Override to support rearranging the table view.
- - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
- {
- }
- */
-
 #pragma mark - Navigation
-// In a story board-based application, you will often want to do a little preparation before navigation
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"settings"]) {
