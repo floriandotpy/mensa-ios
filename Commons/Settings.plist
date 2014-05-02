@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Campus</string>
+		<key>ID</key>
+		<integer>340</integer>
+		<key>shouldDisplay</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Geomatikum</string>
+		<key>ID</key>
+		<integer>540</integer>
+		<key>shouldDisplay</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Philosophenturm</string>
+		<key>ID</key>
+		<integer>350</integer>
+		<key>shouldDisplay</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Stellingen</string>
+		<key>ID</key>
+		<integer>580</integer>
+		<key>shouldDisplay</key>
+		<true/>
+	</dict>
+</array>
+</plist>
